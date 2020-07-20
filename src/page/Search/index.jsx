@@ -10,8 +10,9 @@ export default class Search extends React.Component {
 
         return (
             <div>
-               <SearchHeader history={this.props.history}/>
+            
                <SearchList content={this.props.match.params.content}/>
+               <SearchHeader history={this.props.history}/>
             </div>
         )
     }

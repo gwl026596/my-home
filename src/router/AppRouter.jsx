@@ -7,6 +7,7 @@ import Mine from "../page/Mine"
 import City from "../page/City"
 import App from "../App"
 import Search from "../page/Search"
+import Details from "../page/Details"
 export default class AppRouter extends React.Component {
     render() {
         return (
@@ -18,6 +19,7 @@ export default class AppRouter extends React.Component {
                         <Route path="/shop" component={Shop}></Route>
                         <Route path="/mine" component={Mine}></Route>
                         <Route path="/city" component={City}></Route>
+                        <Route path="/details/:id" component={Details}></Route>
                         <Route path="/search/:content" component={Search}></Route>
                     </Switch>
                 </App>
