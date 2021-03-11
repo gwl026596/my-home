@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div#main
+{
+width:220px;
+height:100%;
+border:1px solid black;
+display:flex;
+align-items:center;
+min-height: 100vh;
+}
+
+div#main div
+{
+flex: 1;
+}
+</style>
+</head>
+<body>
+
+<div id="main">
+  <div style="background-color:coral;">红色</div>
+  <div style="background-color:lightblue;">蓝色</div>  
+  <div style="background-color:lightgreen;">带有更多内容的绿色 div</div>
+</div>
+
+<p>点击“尝试一下”按钮，设置 alignItems 属性的值为 "flex-start"。</p>
+
+<button onclick="myFunction()">尝试一下</button>
+
+<script>
+function myFunction()
+{
+document.getElementById("main").style.alignItems = "flex-start";
+}
+</script>
+
+<p><b>注意：</b>Safari 不支持 alignItems 属性。</p>
+
+</body>
+</html>

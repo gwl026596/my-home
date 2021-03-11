@@ -5,6 +5,7 @@ export default class HotCity extends React.Component {
     OnclickItem=(data)=>{
         console.log(data);
         this.props.cityName(data)
+        
     }
     render() {
         return (

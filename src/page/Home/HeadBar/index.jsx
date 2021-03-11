@@ -53,7 +53,7 @@ export default class HeadBar extends React.Component {
 
                 </div>
                 <div className="home-head-right float-right">
-                    <ShoppingCartOutlined style={{ fontSize: '15px', color: 'white' }} />
+                    <ShoppingCartOutlined style={{ fontSize: '15px', color: 'white',marginTop:'20px', }} />
                 </div>
             </div>
         )
